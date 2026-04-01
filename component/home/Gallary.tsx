@@ -5,7 +5,7 @@ import React from 'react'
 
 const Gallary = () => {
     return (
-        <div className='px-[4%] my-20'>
+        <section id='gallary' className='container mx-auto px-4 my-20'>
             <div className='flex items-center gap-3 border border-[#13161F] rounded-xl w-fit
             font-bold text-[#13161f] py-1 px-6'>
                 <Images />
@@ -13,7 +13,7 @@ const Gallary = () => {
                     Gallery —
                 </p>
             </div>
-            <h2 className='text-[#232939] text-3xl leading-12 mt-4 font-semibold'>
+            <h2 className='text-primary text-3xl leading-12 mt-4 font-semibold'>
                 Snapshots, Moments and Memories
             </h2>
             
@@ -41,10 +41,10 @@ const Gallary = () => {
                 </div>
             </div>
             <div className=''>
-                <p className='bg-[#232939] px-10 font-semibold tracking-widest py-5 rounded-full
+                <p className='bg-primary px-10 font-semibold tracking-widest py-5 rounded-full
                  text-white cursor-pointer w-fit'>VIEW ALL PHOTOS</p>
             </div>
-        </div>
+        </section>
     )
 }
 
